@@ -1,0 +1,17 @@
+Title:	Singleton
+
+Functions:
+	1) To ensure a class has only one( 1) instance, and provide a "global" point of access to it.
+    2) Encapsulated “just-in-time initialization” or “initialization on first use”.
+
+Problem:
+	1) Application needs one, and only one, instance of an object. 
+	2) Additionally, lazy initialization and global access are necessary.
+
+Example:
+	1) Problem difinition
+		- Retrieve all the database tables in the database
+	
+	2) Solution 	
+		first: initialize database config
+		second: retrive all tables
